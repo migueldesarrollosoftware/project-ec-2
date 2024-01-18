@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "galletas",
+        "description": "galletas de colores",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2015/08/13/04/18/macaroon-886562_640.jpg",
+        "price": 54.99
+    },
+    {
+        "id": 2,
+        "name": "cheesecake",
+        "description": "cheesecake de maracuya",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_960_720.jpg",
+        "price": 54.99
+    },
+    {
+        "id": 3,
+        "name": "mofin",
+        "description": "mofin con chispas de colores",	
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2014/02/17/15/25/bun-268237_640.jpg",
+        "price": 22.99
+    },
+    {
+        "id": 4,
+        "name": "pastel de crema",
+        "description": "pastel de chocolate de crema",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2017/01/23/08/45/cake-2001781_640.jpg",
+        "price": 44.99
+    },
+    {
+        "id": 5,
+        "name": "brownie",
+        "description": "brownie de chocolate",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2014/05/08/08/22/cupcake-340173_640.jpg",
+        "price": 15.99
+    },
+    {
+        "id": 6,
+        "name": "cake vainilla",
+        "description": "cake de vainilla",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2017/10/20/17/50/chocolate-cake-2872128_640.jpg",
+        "price": 142.99
+    },
+    {
+        "id": 7,
+        "name": "donas",
+        "description": "donas de colores",
+        "type": "cake",
+        "path": "https://cdn.pixabay.com/photo/2019/05/11/17/08/donuts-4196093_640.jpg",
+        "price": 24.99
+    }
+]
+
