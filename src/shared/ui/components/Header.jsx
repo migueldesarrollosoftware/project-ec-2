@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom"
 import { BsCartCheckFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import { RiTeamFill,RiMessage3Fill } from "react-icons/ri";
-// import { FiShoppingCart } from "react-icons/fi"
-import { Badge } from "react-bootstrap"
 import Logo  from "../../components/Logo"
 import { useNavigate } from 'react-router-dom';
 import { useContext } from "react";
@@ -38,7 +36,7 @@ export const Header = () => {
                     </div>
                     <div className="nav__cart -flex align-items-center mx-4">
                         <button onClick={showCart} className="btn border-1 border-danger">
-                            <BsCartCheckFill className="text-danger"/> {countCartItems > 0 ? <Badge bg="danger">{countCartItems}  </Badge>: null	 }
+                            <BsCartCheckFill className="text-danger"/> {countCartItems > 0 ? <div className="inline-block">{countCartItems}  </div>: null	 }
                         </button>
                     </div>
                 </div>
